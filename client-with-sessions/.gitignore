@@ -21,3 +21,22 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Python
+__pycache__/
+*.pyc
+
+# Flask / DB
+server/app.db
+server/instance/
+
+# Virtual env
+server/.venv/
+.venv/
+
+# Migrations cache
+server/migrations/__pycache__/
+
+# OS / editor
+.DS_Store
+.vscode/
